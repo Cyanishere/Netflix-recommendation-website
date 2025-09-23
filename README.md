@@ -14,7 +14,7 @@ It leverages **content-based filtering** with `CountVectorizer` and `cosine simi
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 ```bash
 ├── netflix.py # Main Flask app
 ├── Netflix_recommend.ipynb
@@ -29,7 +29,7 @@ Install dependencies with:
 pip install -r requirements.txt
 ```
 
-##Usage
+## Usage
 1. Clone the repository and navigate into it:
 ```bash
 git clone https://github.com/Cyanishere/Netflix-recommendation-website.git
@@ -46,5 +46,5 @@ Application Routes
 /about → Displays recommended movies
 /moviepage/<name> → Detailed information about the selected movie
 
-##License
+## License
 This project is for educational purposes. You may modify and use it freely in your projects.
