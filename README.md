@@ -17,6 +17,10 @@ It leverages **content-based filtering** with `CountVectorizer` and `cosine simi
 ## Project Structure
 ```bash
 ├── netflix.py # Main Flask app
+├── netflix_templates/
+│ ├── index.html 
+│ ├── result.html 
+│ └── moviepage.html 
 ├── Netflix_recommend.ipynb
 ├── requirements.txt # Python dependencies
 └── NetflixDataset.csv # Dataset file (must be placed in the right path)
